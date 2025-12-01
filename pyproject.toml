@@ -1,0 +1,21 @@
+[project]
+name = "csv_analyzer"
+version = "0.1.0"
+description = "A tool to analyze CSV files, generating statistics and histograms for numerical columns."
+authors = [
+    {name = "Logesh", email = "logesh@example.com"}
+]
+dependencies = [
+    "pandas>=1.3.0",
+    "matplotlib>=3.4.0",
+    "tabulate>=0.8.0"
+]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
